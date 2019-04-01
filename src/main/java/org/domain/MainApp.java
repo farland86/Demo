@@ -30,7 +30,7 @@ public class MainApp {
         empDto.setDeptID(1L);
         empDto.setAddress("Taiwan");
         empDto.setAge(30);
-        empDto.setEmpName("Jamari");
+        empDto.setEmpName("Brayden");
         empDto.setEmpPhone("12345678");
         empDto.setGender("male");
 
