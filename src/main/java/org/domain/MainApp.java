@@ -22,7 +22,7 @@ public class MainApp {
 
         DeptService deptService = context.getBean(DeptService.class);
         DeptDto deptDto = new DeptDto();
-        deptDto.setDeptName("D1");
+        deptDto.setDeptName("dept1");
         deptService.save(deptDto);
 
         EmpService empService = context.getBean(EmpService.class);
