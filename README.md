@@ -1,4 +1,4 @@
-使用框架 : Spring boot、Spring Data Jpa、Mockito、Maven
+使用框架 : Spring boot、Spring Data Jpa、Mockito、Maven。
 資料庫 : H2
 
 新增部門 POST : /depts  ex: { "deptName" : "dept1" }
