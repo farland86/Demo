@@ -8,7 +8,7 @@
 
 新增員工 POST : /emps  ex: { "empName" : "Brayden", "deptID" : "1", "gender" : "male", "empPhone" : "16138", "address" : "BU9", "age" : 30 }
 
-更新員工 PUT : /emps  ex: { "empID":"2", "empName" : "Brayden, "deptID" : "2", "gender" : "male", "empPhone" : "16138", "address" : "BU10, "age" : 30 }
+更新員工 PUT : /emps  ex: { "empID":"2", "empName" : "Brayden", "deptID" : "2", "gender" : "male", "empPhone" : "16138", "address" : "BU10", "age" : 30 }
 
 刪除員工 DELETE : /emps/{empID}  ex: /emps/2
 
