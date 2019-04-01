@@ -166,10 +166,6 @@ public class EmpDto {
             return false;
         }
 
-        if(dto.getEmpName() != null || dto.getEmpID() != null || dto.getAge() != null || dto.getDeptName() != null) {
-        	return true;
-        }
-
-        return false;
+        return true;
     }
 }
