@@ -1,5 +1,6 @@
 package org.domain.model;
 
+import org.apache.commons.lang3.StringUtils;
 import org.domain.dto.EmpDto;
 
 import javax.persistence.*;
@@ -139,11 +140,10 @@ public class Emp implements java.io.Serializable {
     }
 
     public boolean validate(Dept dept){
-        boolean result = true;
-        if(dept.getDeptID() == null || dept.getDeptName() == null || dept.getDeptName().isEmpty()){
-            result = false;
+        if (dept.getDeptID() == null || StringUtils.isBlank(dept.getDeptName())) {
+            return false;
         }
-        return result;
+        return true;
     }
 }
 
