@@ -6,9 +6,9 @@
 
 取得部門訊息 GET : /depts 
 
-新增員工 POST : /emps  ex: { "empName" : "Brayden", "deptID" : "1", "gender" : "male", "empPhone" : "16138", "address" : "BU9", "age" : 30 }
+新增員工 POST : /emps  ex: { "empName" : "Brayden2", "deptID" : "1", "gender" : "male", "empPhone" : "1613822", "address" : "BU9", "age" : 30 }
 
-更新員工 PUT : /emps  ex: { "empID":"2", "empName" : "Brayden", "deptID" : "1", "gender" : "male", "empPhone" : "16138", "address" : "BU10", "age" : 30 }
+更新員工 PUT : /emps  ex: { "empID":"2", "empName" : "Brayden", "deptID" : "1", "gender" : "male", "empPhone" : "1613811", "address" : "BU10", "age" : 30 }
 
 刪除員工 DELETE : /emps/{empID}  ex: /emps/2
 
