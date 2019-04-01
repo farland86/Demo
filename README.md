@@ -1,3 +1,6 @@
+使用框架 : Spring boot、Spring Data Jpa、Mockito、Maven
+資料庫 : H2
+
 新增部門 POST : /depts  ex: { "deptName" : "dept1" }
 
 更新部門 PUT : /depts  ex: { "deptID":"3", "deptName" : "dept2", "deptOldName" : "dept1" }
@@ -12,4 +15,4 @@
 
 刪除員工 DELETE : /emps/{empID}  ex: /emps/2
 
-取得員工訊息 GET : /emps  ex: { "empName" : "Brayden", "page" : 1, "size" : 10 }
+取得員工訊息(含分頁功能) GET : /emps  ex: { "empName" : "Brayden", "page" : 1, "size" : 10 }
