@@ -1,6 +1,8 @@
 使用框架 : Spring boot、Spring Data Jpa、Mockito、Maven。
 資料庫 : H2
 
+localhost:8090
+
 新增部門 POST : /depts  ex: { "deptName" : "dept1" }
 
 更新部門 PUT : /depts  ex: { "deptID":"3", "deptName" : "dept2", "deptOldName" : "dept1" }
